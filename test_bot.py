@@ -13,6 +13,9 @@ bot = telebot.TeleBot(token)
 def hello():
     pass
 
+def siroj():
+    pass
+
 def start(message):
     markup=types.InlineKeyboardMarkup()
     markup.row(types.InlineKeyboardButton('GBP', callback_data='GBP'),
