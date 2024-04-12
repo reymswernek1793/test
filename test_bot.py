@@ -2,7 +2,7 @@ import telebot
 import requests
 from telebot import types
 
-token = '7095274403:AAFQkCa5tVLhPX0PfIg9UrmHRWCjqpM1TT4'
+token = ''
 API = 'https://currency-converter-pro1.p.rapidapi.com/convert'
 
 bot = telebot.TeleBot(token)
