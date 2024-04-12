@@ -12,7 +12,9 @@ bot = telebot.TeleBot(token)
 
 def hello():
     pass
-###
+def ozgarish():
+    pass
+
 def siroj():
     pass
 
