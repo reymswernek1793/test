@@ -9,6 +9,10 @@ bot = telebot.TeleBot(token)
 
 
 @bot.message_handler(commands=['start'])
+
+def hello():
+    pass
+
 def start(message):
     markup=types.InlineKeyboardMarkup()
     markup.row(types.InlineKeyboardButton('GBP', callback_data='GBP'),
